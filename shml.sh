@@ -170,7 +170,13 @@ function hr {
 
 # Icons
 ##
+
+## kill warnings for a sec
+exec 3>&2
+exec 2> /dev/null
 declare -a entities=()
+exec 2>&3
+
 entities[quot]='\u0022'
 entities[amp]='\u0026'
 entities[lt]='\u003C'
