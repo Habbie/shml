@@ -250,6 +250,43 @@ function icon {
   echo -ne "$i";
 }
 
+function emoji {
+  local i=""
+  case "$1" in
+    'sexual harrasment panda'|panda) i='🐼';;
+    crap|poop|caca|shit)             i='💩';;
+    beer|'home brew'|homebrew|brew)  i='🍺';;
+    cookie)                          i='🍪';;
+    secure|lock)                     i='🔒';;
+    star)                            i='⭐';;
+    oink|pig|hog)                    i='🐖';;
+    cat|meow)                        i='🐱';;
+    dog|woof)                        i='🐶';;
+    monkey)                          i='🐵';;
+    cow|moo)                         i='🐮';;
+    wave|ohai)                       i='👋';;
+    nice|ok)                         i='👌';;
+    thumbsup|like)                   i='👍';;
+    smile|'=)')                      i='😃';;
+    happycat|smilecat)               i='😺';;
+    halo|notme|innocent)             i='😇';;
+    pissedoff|angry|anger|mad)       i='😡';;
+    lmfao|rofl|laughing)             i='😂';;
+    ohstopityou|blush|blushing)      i='😊';;
+    wink|downlow|';)')               i='😉';;
+    cry|crying)                      i='😢';;
+    sad|sadface|frown|'=(')          i='😟';;
+    joker|wild)                      i='🃏';;
+    bee|killerbees)                  i='🐝';;
+    house|home)                      i='🏠';;
+    fire|flame|hot)                  i='🔥';;
+    smoke|cigarette)                i='🚬';;
+    *)
+      entity $1; return 0;;
+  esac
+  echo -ne "$i"
+}
+
 #SHML:END
 
 
@@ -440,7 +477,6 @@ $(i $I)Argument list:
 
 $(_entity_list)
 
-
 $(a bold 'Section 6: Mixed Examples')
 $(hr '-')
 
@@ -458,8 +494,22 @@ $(i $I)$(hr "$(i 'darkstar')" 11)
 $(i $I)>>bah boo<<
 $(a end)$(c end)$(bg end)
 
+$(a bold 'Section 7: Emojis')
+$(hr '-')
 
-$(a bold 'Section 7: Color Bar')
+$(i $I)I had a \$(emoji crap) py day
+$(i $I)I had a $(emoji crap) py day
+
+$(i $I)\$(emoji happy)  \$(emoji star)  \$(emoji brew)  \$(emoji happycat)  \$(emoji '=)')
+$(i $I)$(emoji happy)  $(emoji star)  $(emoji brew)  $(emoji happycat)  $(emoji '=)')
+
+$(i $I)You are special! Here have a \$(emoji cookie)
+$(i $I)You are special! Here have a $(emoji cookie)
+
+$(i $I)I'm no \$(emoji joker)  play me as a \$(emoji joker)  \$(emoji bee)  on you like a \$(emoji house)  on \$(emoji fire)  \$(emoji smoke)  ya
+$(i $I)I'm no $(emoji joker)  play me as a $(emoji joker)  $(emoji bee)  on you like a $(emoji house)  on $(emoji fire)  $(emoji smoke)  ya
+
+$(a bold 'Section 8: Color Bar')
 $(hr '-')
 
 $(i $I)\$(color-bar)
