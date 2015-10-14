@@ -29,10 +29,10 @@ To add an emoji you need to call the `emoji` method followed by an argument. Eac
 | `panda` 	|  `1F43C` `panda_face` `shpanda`	|   🐼	|
 |  `sushi`	|   `1F363` `raw` `sashimi`	|  🍣	|
 |   `home`	|   `1F3E0` `house`	|   🏠	|
-|   `eyeglases`	|   `bifocals` `glasses`	|   👓	|
-|   `smoke`	|   `cig` `grit` `cancerstick`	|   🚬	|
-|   `fire`	|   `burn` `burning`	|   🔥	|
-|   `fire`	|   `burn` `burning`	|   💩	|
+|   `eyeglases`	|   `1F453` `bifocals` `eyeglasses`	|   👓	|
+|   `smoke`	|   `1F6AC` `smoking` `cigarette`	|   🚬	|
+|   `fire`	|   `1F525` `flame` `hot`	|   🔥	|
+|   `hankey`	|   `1F4A9` `poop` `shit`	|   💩	|
 |   `beer`	|   `1F37A` `homebrew` `brew`	|   🍺	|
 |   `cookie`	|   `1F36A` `biscuit` `chocolate`	|   🍪	|
 |   `lock`	|   `1F512` `padlock` `secure`	|   🔒	|
@@ -42,7 +42,7 @@ To add an emoji you need to call the `emoji` method followed by an argument. Eac
 |   `check`	|   `2705` `white_check_mark`	|   ✅	|
 |   `x`	|   `274C` `cross` `xmark`	|   ❌	|
 |   `toilet`	|   `1F6BD` `restroom` `loo`	|   🚽	|
-|   `bell`	|   `ringer` `ring`	|   🔔	|
+|   `bell`	|   `1F514` `ringer` `ring`	|   🔔	|
 |   `search`	|   `1F50E` `mag_right` `magnify`	|   🔎	|
 |   `dart`	|  `1F3AF` `bullseye` `darts`	|   🎯	|
 |   `cash`	|   `1F4B5` `dollar` `cream`	|   💵	|
