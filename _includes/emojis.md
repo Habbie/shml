@@ -61,3 +61,4 @@ echo "$(emoji bee) on you like a $(emoji house) on $(emoji fire), $(emoji smoke)
 <center>
 ![Emojis Demo](../public/images/emojis-demo.png)
 </center>
+<center><a href="http://code.runnable.com/Viu5vP4l21kzxZI2/shml-emojis-for-shell-bash-and-icons" target="_blank"><img src="../public/images/demo-on-runnable.png" border="0"></a></center>

@@ -33,3 +33,4 @@ echo "$(color red)$(icon xmark)$(color end)TPS Reports $(color green)$(icon chec
 <center>
 ![Icons Demo](../public/images/icons-demo.png)
 </center>
+<center><a href="http://code.runnable.com/Viu2IIDNOkszAHQg/shml-icons-for-shell-and-bash" target="_blank"><img src="../public/images/demo-on-runnable.png" border="0"></a></center>

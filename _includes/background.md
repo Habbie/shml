@@ -60,4 +60,4 @@ Here is what the output should look like.  Style may differ slightly depending o
 <center>
 ![Foreground Demo](../public/images/background-demo.png)
 </center>
-Give it a try, we'll wait here for you.
+<center><a href="http://code.runnable.com/ViG7cr3G56p074rT/shml-background-for-shell-bash-and-color" target="_blank"><img src="../public/images/demo-on-runnable.png" border="0"></a></center>

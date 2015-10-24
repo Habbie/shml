@@ -24,21 +24,21 @@ Typing `$(attribute end)` turns off everything, including `foreground` and `back
 ### Code Samples
 
 ```bash
-$(attribute underline "So Underlined") $(attribute end)
+echo "$(attribute underline "So Underlined") $(attribute end)"
 ```
 
 ```bash
-$(attribute bold "Such Bold") $(attribute end)
+echo "$(attribute bold "Such Bold") $(attribute end)"
 ```
 
 ```bash
-$(attribute invert "Why this inverted?") $(attribute end)
+echo "$(attribute invert "Why this inverted?") $(attribute end)"
 ```
 
 You can also use `a` as an alias for `attribute`
 
 ```bash
-$(a bold "such BOLD shorter") $(a end)
+echo "$(a bold "such BOLD shorter") $(a end)"
 ```
 
 ### Results
@@ -47,4 +47,4 @@ Here is what the output should look like. Style may differ slightly depending on
 <center>
 ![Attributes Demo](../public/images/attributes-demo.png)
 </center>
-Give it a try, we'll keep the lights on.
+<center><a href="http://code.runnable.com/ViG-mVKrgKR0rUIS/shml-attributes-for-shell-bash-bold-underline-and-invert" target="_blank"><img src="../public/images/demo-on-runnable.png" border="0"></a></center>
